@@ -84,46 +84,46 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Favorites.xsd</DependentUpon>
     </Compile>
-    <Compile Include="fmAbout.cs">
+    <Compile Include="Forms\fmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmAbout.Designer.cs">
+    <Compile Include="Forms\fmAbout.Designer.cs">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmEditURL.cs">
+    <Compile Include="Forms\fmEditURL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmEditURL.Designer.cs">
+    <Compile Include="Forms\fmEditURL.Designer.cs">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmHelp.cs">
+    <Compile Include="Forms\fmHelp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmHelp.designer.cs">
+    <Compile Include="Forms\fmHelp.designer.cs">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmIcons.cs">
+    <Compile Include="Forms\fmIcons.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmIcons.Designer.cs">
+    <Compile Include="Forms\fmIcons.Designer.cs">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmMain.cs">
+    <Compile Include="Forms\fmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmMain.Designer.cs">
+    <Compile Include="Forms\fmMain.Designer.cs">
       <DependentUpon>fmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmRename.cs">
+    <Compile Include="Forms\fmRename.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmRename.Designer.cs">
+    <Compile Include="Forms\fmRename.Designer.cs">
       <DependentUpon>fmRename.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmSetIcon.cs">
+    <Compile Include="Forms\fmSetIcon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmSetIcon.Designer.cs">
+    <Compile Include="Forms\fmSetIcon.Designer.cs">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -135,215 +135,215 @@
       <DependentUpon>TreeViewR.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper\Utilities.cs" />
-    <EmbeddedResource Include="fmAbout.da.resx">
+    <EmbeddedResource Include="Forms\fmAbout.da.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.de.resx">
+    <EmbeddedResource Include="Forms\fmAbout.de.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.es.resx">
+    <EmbeddedResource Include="Forms\fmAbout.es.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.fr.resx">
+    <EmbeddedResource Include="Forms\fmAbout.fr.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.it.resx">
+    <EmbeddedResource Include="Forms\fmAbout.it.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.nl.resx">
+    <EmbeddedResource Include="Forms\fmAbout.nl.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.pl.resx">
+    <EmbeddedResource Include="Forms\fmAbout.pl.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.pt.resx">
+    <EmbeddedResource Include="Forms\fmAbout.pt.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.resx">
+    <EmbeddedResource Include="Forms\fmAbout.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmAbout.ru.resx">
+    <EmbeddedResource Include="Forms\fmAbout.ru.resx">
       <DependentUpon>fmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.da.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.da.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.de.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.de.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.es.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.es.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.fr.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.fr.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.it.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.it.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.nl.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.nl.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.pl.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.pl.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.pt.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.pt.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmEditURL.ru.resx">
+    <EmbeddedResource Include="Forms\fmEditURL.ru.resx">
       <DependentUpon>fmEditURL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.da.resx">
+    <EmbeddedResource Include="Forms\fmHelp.da.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.de.resx">
+    <EmbeddedResource Include="Forms\fmHelp.de.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.es.resx">
+    <EmbeddedResource Include="Forms\fmHelp.es.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.fr.resx">
+    <EmbeddedResource Include="Forms\fmHelp.fr.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.it.resx">
+    <EmbeddedResource Include="Forms\fmHelp.it.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.nl.resx">
+    <EmbeddedResource Include="Forms\fmHelp.nl.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.pl.resx">
+    <EmbeddedResource Include="Forms\fmHelp.pl.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.pt.resx">
+    <EmbeddedResource Include="Forms\fmHelp.pt.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.resx">
+    <EmbeddedResource Include="Forms\fmHelp.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmHelp.ru.resx">
+    <EmbeddedResource Include="Forms\fmHelp.ru.resx">
       <DependentUpon>fmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.da.resx">
+    <EmbeddedResource Include="Forms\fmIcons.da.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.de.resx">
+    <EmbeddedResource Include="Forms\fmIcons.de.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.es.resx">
+    <EmbeddedResource Include="Forms\fmIcons.es.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.fr.resx">
+    <EmbeddedResource Include="Forms\fmIcons.fr.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.it.resx">
+    <EmbeddedResource Include="Forms\fmIcons.it.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.nl.resx">
+    <EmbeddedResource Include="Forms\fmIcons.nl.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.pl.resx">
+    <EmbeddedResource Include="Forms\fmIcons.pl.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.pt.resx">
+    <EmbeddedResource Include="Forms\fmIcons.pt.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.resx">
+    <EmbeddedResource Include="Forms\fmIcons.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmIcons.ru.resx">
+    <EmbeddedResource Include="Forms\fmIcons.ru.resx">
       <DependentUpon>fmIcons.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.da.resx">
+    <EmbeddedResource Include="Forms\fmMain.da.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.de.resx">
+    <EmbeddedResource Include="Forms\fmMain.de.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.es.resx">
+    <EmbeddedResource Include="Forms\fmMain.es.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.fr.resx">
+    <EmbeddedResource Include="Forms\fmMain.fr.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.it.resx">
+    <EmbeddedResource Include="Forms\fmMain.it.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.nl.resx">
+    <EmbeddedResource Include="Forms\fmMain.nl.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.pl.resx">
+    <EmbeddedResource Include="Forms\fmMain.pl.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.pt.resx">
+    <EmbeddedResource Include="Forms\fmMain.pt.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.resx">
+    <EmbeddedResource Include="Forms\fmMain.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMain.ru.resx">
+    <EmbeddedResource Include="Forms\fmMain.ru.resx">
       <DependentUpon>fmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.da.resx">
+    <EmbeddedResource Include="Forms\fmRename.da.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.de.resx">
+    <EmbeddedResource Include="Forms\fmRename.de.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.es.resx">
+    <EmbeddedResource Include="Forms\fmRename.es.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.fr.resx">
+    <EmbeddedResource Include="Forms\fmRename.fr.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.it.resx">
+    <EmbeddedResource Include="Forms\fmRename.it.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.nl.resx">
+    <EmbeddedResource Include="Forms\fmRename.nl.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.pl.resx">
+    <EmbeddedResource Include="Forms\fmRename.pl.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.pt.resx">
+    <EmbeddedResource Include="Forms\fmRename.pt.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.resx">
+    <EmbeddedResource Include="Forms\fmRename.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmRename.ru.resx">
+    <EmbeddedResource Include="Forms\fmRename.ru.resx">
       <DependentUpon>fmRename.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.da.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.da.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.de.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.de.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.es.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.es.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.fr.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.fr.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.it.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.it.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.nl.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.nl.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.pl.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.pl.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.pt.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.pt.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmSetIcon.ru.resx">
+    <EmbeddedResource Include="Forms\fmSetIcon.ru.resx">
       <DependentUpon>fmSetIcon.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
