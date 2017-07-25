@@ -1,6 +1,6 @@
 ## EdgeManage
 
-**The EdgeManage application is all about managing your Edge favorites. It is designed to address a lot of the missing features in the new Edge browser.**
+**The EdgeManage application is all about managing your Microsoft Edge favorites. It is designed to address a lot of the missing features in the new Edge browser.**
 
 1. View all favorites and folders in a graphical tree
 2. Use "drag and drop" to move favorites and folders around
@@ -20,3 +20,6 @@
 16. Move or delete multiple items in single operation via "multiple selection"
 
 **The EdgeManage home is at http://www.emmet-gray.com/Articles/EdgeManage.html**
+
+* original author - [Emmit Gray](egray1@hot.rr.com)
+* managed by [Aaron Sulwer](asulwer@gmail.com)
