@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errBadCol" xml:space="preserve">
+    <value>Неподдерживаемый тип: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="errCheckUpdate" xml:space="preserve">
+    <value>Невозможно проверить обновления: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="errCorrupt" xml:space="preserve">
+    <value>База данных повреждена</value>
+  </data>
+  <data name="errMissing" xml:space="preserve">
+    <value>Файл базы данных отсутствует</value>
+  </data>
+  <data name="errUpdate" xml:space="preserve">
+    <value>Невозможно обновить: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgAttention" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="msgBackup" xml:space="preserve">
+    <value>Копирование завершено</value>
+  </data>
+  <data name="msgBackupErr" xml:space="preserve">
+    <value>Невозможно создать резервную копию: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgCancelled" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="msgClear" xml:space="preserve">
+    <value>Это позволит отменить все изменения и начать заново с пустым списком Избранное
+Вы хотите продолжить?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgClose1" xml:space="preserve">
+    <value>Пожалуйста, закройте браузер Edge и затем вновь запустите это приложение</value>
+  </data>
+  <data name="msgClose2" xml:space="preserve">
+    <value>Пожалуйста, закройте браузер Edge и попробуйте еще раз</value>
+  </data>
+  <data name="msgDelBar" xml:space="preserve">
+    <value>Вы не можете удалить специальную папку '_Favorites_Bar_'
+Вы хотите, удалить её содержимое вместо этого?</value>
+    <comment>'_Favorites_Bar_' is hard coded, multiline</comment>
+  </data>
+  <data name="msgDelFolder" xml:space="preserve">
+    <value>Будут также удалены все элементы в папке</value>
+  </data>
+  <data name="msgDelTop" xml:space="preserve">
+    <value>Вы не можете удалить папку 'Наверх'
+Используйте меню «Данные / Очистить всё», чтобы удалить всё Избранное.</value>
+    <comment>must match txtTop, multiline</comment>
+  </data>
+  <data name="msgDone" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="msgEmailErr" xml:space="preserve">
+    <value>Невозможно отправить email: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgError" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="msgFavExists" xml:space="preserve">
+    <value>Ссылка с таким именем уже существует, используйте другое</value>
+  </data>
+  <data name="msgFileNotFound" xml:space="preserve">
+    <value>Файл не найден</value>
+  </data>
+  <data name="msgFolderExists" xml:space="preserve">
+    <value>Папка с таким именем уже существует, используйте другое</value>
+  </data>
+  <data name="msgGenerate" xml:space="preserve">
+    <value>Созданы {0}/{1} иконок</value>
+  </data>
+  <data name="msgHelpErr" xml:space="preserve">
+    <value>Невозможно открыть страницу помощи: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgHTMLinErr" xml:space="preserve">
+    <value>Невозможно прочитать HTML файл: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgHTMLout" xml:space="preserve">
+    <value>Экспорт завершен</value>
+  </data>
+  <data name="msgHTMLoutErr" xml:space="preserve">
+    <value>Невозможна запись в HTML файл: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgIEinErr" xml:space="preserve">
+    <value>Невозможно импортировать из IE: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgIEout" xml:space="preserve">
+    <value>Экспорт завершен</value>
+  </data>
+  <data name="msgIEoutErr" xml:space="preserve">
+    <value>Невозможно экспортировать в IE: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgImport" xml:space="preserve">
+    <value>Импорт - добавлено {0} {1} изменено {2} {3}</value>
+  </data>
+  <data name="msgLatestVer" xml:space="preserve">
+    <value>У Вас последняя версия</value>
+  </data>
+  <data name="msgLoadErr" xml:space="preserve">
+    <value>Невозможно загрузить избранное из Edge: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgNoChangeSave" xml:space="preserve">
+    <value>Изменений не было, сохранять ничего не нужно</value>
+  </data>
+  <data name="msgNotice" xml:space="preserve">
+    <value>Обратите внимание!</value>
+  </data>
+  <data name="msgNotSetIcon" xml:space="preserve">
+    <value>Невозможно установить иконку</value>
+  </data>
+  <data name="msgNoUpdate" xml:space="preserve">
+    <value>Нет доступных обновлений</value>
+  </data>
+  <data name="msgReload" xml:space="preserve">
+    <value>Будут отменены все изменения и перезагружено избранное из браузера Edge
+Вы хотите продолжить?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgRenameBar" xml:space="preserve">
+    <value>Вы не можете переименовать специальную папку '_Favorites_Bar_' folder</value>
+    <comment>'_Favorites_Bar_' is hard coded</comment>
+  </data>
+  <data name="msgRenameExists" xml:space="preserve">
+    <value>Такое имя уже существует, используйте другое</value>
+  </data>
+  <data name="msgRenameTop" xml:space="preserve">
+    <value>Вы не можете переименовать папку 'Наверх'</value>
+    <comment>must match txtTop</comment>
+  </data>
+  <data name="msgRestore" xml:space="preserve">
+    <value>Восстановление завершено</value>
+  </data>
+  <data name="msgRestoreDiscard" xml:space="preserve">
+    <value>Восстановление базы данных отменит все изменения, сделанные с помощью Edge, или EdgeManage с момента создания резервной копии
+Вы хотите продолжить?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgRestoreErr" xml:space="preserve">
+    <value>Невозможно восстановить из резервной копии: {0}</value>
+  </data>
+  <data name="msgSaved" xml:space="preserve">
+    <value>Избранное сохранено</value>
+  </data>
+  <data name="msgSaveErr" xml:space="preserve">
+    <value>Невозможно сохранить избранное: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgShortcutErr" xml:space="preserve">
+    <value>Новозможно создать ярлык: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgSuccess" xml:space="preserve">
+    <value>Успешно!</value>
+  </data>
+  <data name="msgUndelete" xml:space="preserve">
+    <value>Восстановить удалённое</value>
+  </data>
+  <data name="msgUndeleteItems" xml:space="preserve">
+    <value>Вы хотели бы восстановить также все элементы в папке (только в этой папке)?</value>
+  </data>
+  <data name="msgUnsaved" xml:space="preserve">
+    <value>Обнаружены несохраненные изменения
+Вы хотите сохранить изменения в браузере Edge перед выходом?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgUpdate" xml:space="preserve">
+    <value>Текщая вестия {0} доступна версия {1}
+Хотите обновить версию сейчас?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgUpdateAvail" xml:space="preserve">
+    <value>Доступно обновление программы</value>
+  </data>
+  <data name="msgVersion" xml:space="preserve">
+    <value>Эта программа требует windows не ниже 10.0.10586 (версия вашей windows  {0})
+Или, выражаясь другими словами, вам не нужна эта программа на вашей версии Windows</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgWarning" xml:space="preserve">
+    <value>Предупрждение</value>
+  </data>
+  <data name="msgWebErr" xml:space="preserve">
+    <value>Невозможно открыть домашнюю страницу: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="txtAddFav" xml:space="preserve">
+    <value>Добавить ссылку</value>
+  </data>
+  <data name="txtAddFolder" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="txtGraphicFilter" xml:space="preserve">
+    <value>Файла изображений (*.BMP;*.JPG;*.JPEG;*.GIF;*.TIF;*.TIFF;*.PNG;*.ICO)|*.BMP;*.JPG;*.JPEG;*.GIF;*.TIF;*.TIFF;*.PNG;*.ICO|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="txtHTMLFilter" xml:space="preserve">
+    <value>HTML файлы (*.htm;*.html)|*.htm;*.html|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="txtRow" xml:space="preserve">
+    <value>строка</value>
+    <comment>as in "updated 1 row"</comment>
+  </data>
+  <data name="txtRows" xml:space="preserve">
+    <value>строки/строк</value>
+    <comment>as in "updated 2 rows"</comment>
+  </data>
+  <data name="txtTop" xml:space="preserve">
+    <value>Наверх</value>
+  </data>
+  <data name="txtXMLFilter" xml:space="preserve">
+    <value>XML файлы (*.xml)|*.xml|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="txtZipFilter" xml:space="preserve">
+    <value>Zip файлы (*.zip)|*.zip|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="msgZipVer" xml:space="preserve">
+    <value>Эта резервная копия из другой версии Edge, поэтому она может работать неправильно
+Вы хотите продолжить?</value>
+    <comment>multiline; v2.0.0</comment>
+  </data>
+  <data name="msgSchema" xml:space="preserve">
+    <value>В Edge было изменение базы данных, пожалуйста, обновите до последней версии EdgeManage: </value>
+    <comment>space at the end; v2.0.1</comment>
+  </data>
+</root>

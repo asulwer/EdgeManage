@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="EdgeManage.ESE_Engine">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <Members>
+      <Field Name="convType" Hidden="true" />
+      <Method Name="CopyData" Hidden="true" />
+      <Method Name="MakeKeyPrimary" Hidden="true" />
+      <Field Name="pfvInstanceName" Hidden="true" />
+      <Method Name="Truncate" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAAAAAAAAAAAAAEAQAAEAAAASAAAAAAAAAA=</HashCode>
+      <FileName>ESE_Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdgeManage.ColumnInfoSorter">
+    <Position X="0.5" Y="17.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ESE_Engine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EdgeManage.Utilities">
+    <Position X="0.5" Y="2.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAACQAEAAEAAAAAEQAAAAAAQAAAASABAgAAAAAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdgeManage.FavIcon">
+    <Position X="0.5" Y="6.75" Width="4" />
+    <Members>
+      <Method Name="BitmapToIcon" Hidden="true" />
+      <Method Name="CheckSum" Hidden="true" />
+      <Method Name="GetAttr" Hidden="true" />
+      <Method Name="ResizeImage" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAAECAAAAADAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FavIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdgeManage.WebClientWithTimeout">
+    <Position X="0.5" Y="20.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FavIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdgeManage.Database">
+    <Position X="0.5" Y="8.5" Width="4.5" />
+    <Members>
+      <Method Name="CleanURL" Hidden="true" />
+      <Field Name="currentOrder" Hidden="true" />
+      <Field Name="ese" Hidden="true" />
+      <Method Name="ExportHTMLRecursive" Hidden="true" />
+      <Field Name="favBarGUID" Hidden="true" />
+      <Method Name="FavBarRegCache" Hidden="true" />
+      <Field Name="fdt" Hidden="true" />
+      <Method Name="GetLastRowId" Hidden="true" />
+      <Method Name="GetNextOrderNumber" Hidden="true" />
+      <Method Name="GetParent" Hidden="true" />
+      <Method Name="ImportFavorite" Hidden="true" />
+      <Method Name="ImportFolder" Hidden="true" />
+      <Method Name="ImportFolderComplete" Hidden="true" />
+      <Method Name="ImportIERecursive" Hidden="true" />
+      <Method Name="ImportStart" Hidden="true" />
+      <Method Name="Insert" Hidden="true" />
+      <Method Name="IsChild" Hidden="true" />
+      <Field Name="isESE" Hidden="true" />
+      <Field Name="ORDER_INCREMENT" Hidden="true" />
+      <Field Name="ORDER_MASK" Hidden="true" />
+      <Field Name="parents" Hidden="true" />
+      <Field Name="pfvModifiedRows" Hidden="true" />
+      <Field Name="pfvNewRows" Hidden="true" />
+      <Method Name="PopulateFullPath" Hidden="true" />
+      <Method Name="RecursivePopulate" Hidden="true" />
+      <Field Name="rootGUID" Hidden="true" />
+      <Method Name="UpdateRowAllocation" Hidden="true" />
+      <Field Name="xmlDataSource" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="EdgeManage.Database.OrderOffset" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Database.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="EdgeManage.Database.SplitDate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Database.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQwGgdAAAYEAiBJgAAAYOTAADCECAAAgApUFwmQbMAI=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdgeManage.fmMain">
+    <Position X="6" Y="0.5" Width="5.5" />
+    <Members>
+      <Field Name="cmsMain" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dgvMain" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="fbdMain" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="msMain" Hidden="true" />
+      <Field Name="ofdMain" Hidden="true" />
+      <Field Name="sfdMain" Hidden="true" />
+      <Field Name="toolStripSeparator1" Hidden="true" />
+      <Field Name="toolStripSeparator10" Hidden="true" />
+      <Field Name="toolStripSeparator11" Hidden="true" />
+      <Field Name="toolStripSeparator12" Hidden="true" />
+      <Field Name="toolStripSeparator13" Hidden="true" />
+      <Field Name="toolStripSeparator14" Hidden="true" />
+      <Field Name="toolStripSeparator2" Hidden="true" />
+      <Field Name="toolStripSeparator3" Hidden="true" />
+      <Field Name="toolStripSeparator4" Hidden="true" />
+      <Field Name="toolStripSeparator5" Hidden="true" />
+      <Field Name="toolStripSeparator6" Hidden="true" />
+      <Field Name="toolStripSeparator7" Hidden="true" />
+      <Field Name="toolStripSeparator8" Hidden="true" />
+      <Field Name="toolStripSeparator9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>YjGXl/8MLScwQCjQKsHSNAC2rJQu6vKBARjjlTgKPQA=</HashCode>
+      <FileName>fmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EdgeManage.NodeSorter">
+    <Position X="0.5" Y="19.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>fmMain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

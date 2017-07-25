@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{605E31C8-8AFE-489F-BCAB-C07F72632E43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EdgeManage</RootNamespace>
+    <AssemblyName>EdgeManage</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\EdgeManage.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Esent.Interop, Version=1.9.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\ManagedEsent.1.9.4\lib\net40\Esent.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.5.1.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.5.1\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\Database.cs" />
+    <Compile Include="Helper\ESE_Engine.cs" />
+    <Compile Include="Helper\FavIcon.cs" />
+    <Compile Include="Helper\Favorites.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Favorites.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmAbout.Designer.cs">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmEditURL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmEditURL.Designer.cs">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmHelp.designer.cs">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmIcons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmIcons.Designer.cs">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMain.Designer.cs">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmRename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmRename.Designer.cs">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSetIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSetIcon.Designer.cs">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helper\TreeViewR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helper\TreeViewR.designer.cs">
+      <DependentUpon>TreeViewR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Utilities.cs" />
+    <EmbeddedResource Include="fmAbout.da.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.de.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.es.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.fr.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.it.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.nl.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.pl.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.pt.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAbout.ru.resx">
+      <DependentUpon>fmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.da.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.de.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.es.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.fr.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.it.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.nl.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.pl.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.pt.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditURL.ru.resx">
+      <DependentUpon>fmEditURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.da.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.de.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.es.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.fr.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.it.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.nl.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.pl.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.pt.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHelp.ru.resx">
+      <DependentUpon>fmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.da.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.de.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.es.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.fr.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.it.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.nl.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.pl.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.pt.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmIcons.ru.resx">
+      <DependentUpon>fmIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.da.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.de.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.es.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.fr.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.it.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.nl.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.pl.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.pt.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMain.ru.resx">
+      <DependentUpon>fmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.da.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.de.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.es.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.fr.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.it.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.nl.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.pl.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.pt.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRename.ru.resx">
+      <DependentUpon>fmRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.da.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.de.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.es.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.fr.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.it.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.nl.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.pl.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.pt.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetIcon.ru.resx">
+      <DependentUpon>fmSetIcon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.fr.resx" />
+    <EmbeddedResource Include="Properties\Resources.nl.resx" />
+    <EmbeddedResource Include="Properties\Resources.de.resx" />
+    <EmbeddedResource Include="Properties\Resources.da.resx" />
+    <EmbeddedResource Include="Properties\Resources.es.resx" />
+    <EmbeddedResource Include="Properties\Resources.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.it.resx" />
+    <EmbeddedResource Include="Properties\Resources.pl.resx" />
+    <EmbeddedResource Include="Helper\TreeViewR.resx">
+      <DependentUpon>TreeViewR.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Helper\EdgeManage.cd" />
+    <None Include="Helper\Favorites.xsc">
+      <DependentUpon>Favorites.xsd</DependentUpon>
+    </None>
+    <None Include="Helper\Favorites.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Favorites.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Helper\Favorites.xss">
+      <DependentUpon>Favorites.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\EdgeManage.ico" />
+    <None Include="readme.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\EdgeManage.png" />
+    <Content Include="Resources\url.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

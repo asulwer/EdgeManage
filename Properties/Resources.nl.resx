@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errBadCol" xml:space="preserve">
+    <value>Niet-ondersteunde kolom: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgAttention" xml:space="preserve">
+    <value>Opgepast!</value>
+  </data>
+  <data name="msgBackup" xml:space="preserve">
+    <value>Backup gereed</value>
+  </data>
+  <data name="msgBackupErr" xml:space="preserve">
+    <value>Kon geen backup maken: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgClear" xml:space="preserve">
+    <value>Alle wijzigingen negeren en opnieuw beginnen met een lege Favorietenlijst
+Wilt u doorgaan?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgClose1" xml:space="preserve">
+    <value>Sluit Edge Browser a.u.b. en herstart dit programma</value>
+  </data>
+  <data name="msgClose2" xml:space="preserve">
+    <value>Sluit Edge browser en probeer opnieuw</value>
+  </data>
+  <data name="msgDelBar" xml:space="preserve">
+    <value>U kunt de '_Favorites_Bar_' map niet wissen
+
+Wilt u de inhoud verwijderen?</value>
+    <comment>'_Favorites_Bar_' is hard coded, multiline</comment>
+  </data>
+  <data name="msgDelFolder" xml:space="preserve">
+    <value>Dit verwijdert ook alle items in de map</value>
+  </data>
+  <data name="msgDelTop" xml:space="preserve">
+    <value>U kunt de 'Bovenste' map niet wissen
+
+Gebruik de menu optie 'Data/Wis Alles' om alle Favorieten te verwijderen</value>
+    <comment>must match txtTop, multiline</comment>
+  </data>
+  <data name="msgEmailErr" xml:space="preserve">
+    <value>Kan geen email verzenden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="msgFavExists" xml:space="preserve">
+    <value>Favorietnaam bestaat al, gebruik een andere naam</value>
+  </data>
+  <data name="msgFolderExists" xml:space="preserve">
+    <value>Mapnaam bestaat al, gebruik een andere naam</value>
+  </data>
+  <data name="msgHelpErr" xml:space="preserve">
+    <value>Kan Help pagina niet opstarten: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgHTMLinErr" xml:space="preserve">
+    <value>Kan HTML file niet lezen: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgHTMLout" xml:space="preserve">
+    <value>Export voltooid</value>
+  </data>
+  <data name="msgHTMLoutErr" xml:space="preserve">
+    <value>Kan niet HTML bestand niet aanmaken: </value>
+  </data>
+  <data name="msgIEinErr" xml:space="preserve">
+    <value>Kan niet importeren van IE: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgIEout" xml:space="preserve">
+    <value>Export Voltooid</value>
+  </data>
+  <data name="msgIEoutErr" xml:space="preserve">
+    <value>Kan niet exporteren naar IE: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgImport" xml:space="preserve">
+    <value>Import toegevoegd {0} {1} en aangepast {2} {3}</value>
+  </data>
+  <data name="msgLoadErr" xml:space="preserve">
+    <value>Kan Edge Favorieten niet laden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgNoChangeSave" xml:space="preserve">
+    <value>Er zijn geen wijzigingen, er is niets op te slaan</value>
+  </data>
+  <data name="msgNotice" xml:space="preserve">
+    <value>Kennisgeving!</value>
+  </data>
+  <data name="msgReload" xml:space="preserve">
+    <value>Alle wijzigingen negeren en favorieten uit de Edge browser opnieuw laden
+
+Wilt u doorgaan?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgRenameBar" xml:space="preserve">
+    <value>U kunt speciale  '_Favorites_Bar_' map niet hernoemen</value>
+    <comment>'_Favorites_Bar_' is hard coded</comment>
+  </data>
+  <data name="msgRenameExists" xml:space="preserve">
+    <value>Naam bestaat al, gebruik een andere naam</value>
+  </data>
+  <data name="msgRenameTop" xml:space="preserve">
+    <value>U kunt 'Bovenste' map niet hernoemen</value>
+    <comment>must match txtTop</comment>
+  </data>
+  <data name="msgRestore" xml:space="preserve">
+    <value>Terugzetten Voltooid</value>
+  </data>
+  <data name="msgRestoreDiscard" xml:space="preserve">
+    <value>De database terugzetten maakt alle gemaakte wijzigingen via Edge
+
+of EdgeManage vanaf de backup datum ongedaan
+
+Wilt u doorgaan?</value>
+  </data>
+  <data name="msgRestoreErr" xml:space="preserve">
+    <value>Kan backup niet terugzetten: {0}</value>
+  </data>
+  <data name="msgSaved" xml:space="preserve">
+    <value>Favorieten Opgeslagen</value>
+  </data>
+  <data name="msgSaveErr" xml:space="preserve">
+    <value>Kan Edge Favorieten niet opslaan: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgShortcutErr" xml:space="preserve">
+    <value>Kan snelkoppelling niet aanmaken: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgSuccess" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="msgUndelete" xml:space="preserve">
+    <value>Herstellen</value>
+  </data>
+  <data name="msgUndeleteItems" xml:space="preserve">
+    <value>Wilt u alle items in de map herstellen (alleen op dit niveau)?</value>
+  </data>
+  <data name="msgUnsaved" xml:space="preserve">
+    <value>Wijzigingen nog niet opgeslagen
+
+Wilt u uw wijzingen opslaan in Edge browser alvorens te sluiten?</value>
+  </data>
+  <data name="msgVersion" xml:space="preserve">
+    <value>Dit programma heeft op zijn minst Windows 10.0.10586 (en uw systeem is schijnbaar {0})
+
+Of met andere woorden, u heeft dit programma op uw versie van Windows niet nodig</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgWarning" xml:space="preserve">
+    <value>Waarschuwing!</value>
+  </data>
+  <data name="msgWebErr" xml:space="preserve">
+    <value>Kan Home pagina niet opstarten: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="txtAddFav" xml:space="preserve">
+    <value>Favoriet toevoegen</value>
+  </data>
+  <data name="txtAddFolder" xml:space="preserve">
+    <value>Map toevoegen</value>
+  </data>
+  <data name="txtRow" xml:space="preserve">
+    <value>rij</value>
+    <comment>as in "updated 1 row"</comment>
+  </data>
+  <data name="txtRows" xml:space="preserve">
+    <value>rijen</value>
+    <comment>as in "updated 2 rows"</comment>
+  </data>
+  <data name="txtHTMLFilter" xml:space="preserve">
+    <value>HTML bestanden (*.htm;*.html)|*.htm;*.html|Alle bestanden (*.*)|*.*</value>
+  </data>
+  <data name="txtTop" xml:space="preserve">
+    <value>Bovenste</value>
+  </data>
+  <data name="txtZipFilter" xml:space="preserve">
+    <value>Zip bestanden (*.zip)|*.zip|Alle bestanden (*.*)|*.*</value>
+  </data>
+  <data name="errCorrupt" xml:space="preserve">
+    <value>De database is beschadigd</value>
+  </data>
+  <data name="errMissing" xml:space="preserve">
+    <value>Database bestand ontbreekt</value>
+  </data>
+  <data name="msgCancelled" xml:space="preserve">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="msgDone" xml:space="preserve">
+    <value>Gedaan</value>
+  </data>
+  <data name="msgGenerate" xml:space="preserve">
+    <value>Gegenereerde {0}/{1} favoriete pictogrammen</value>
+  </data>
+  <data name="errCheckUpdate" xml:space="preserve">
+    <value>Kon niet controleren op updates: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="errUpdate" xml:space="preserve">
+    <value>Kon niet bijwerken: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgLatestVer" xml:space="preserve">
+    <value>Je hebt de laatste versie</value>
+  </data>
+  <data name="msgNoUpdate" xml:space="preserve">
+    <value>Geen updates beschikbaar</value>
+  </data>
+  <data name="msgUpdate" xml:space="preserve">
+    <value>Uw versie is {0} en de meest recente versie is {1}
+
+Wilt u nu updaten?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgUpdateAvail" xml:space="preserve">
+    <value>Update beschikbaar</value>
+  </data>
+  <data name="txtXMLFilter" xml:space="preserve">
+    <value>XML bestanden (*.xml)|*.xml|Alle bestanden (*.*)|*.*</value>
+  </data>
+  <data name="msgFileNotFound" xml:space="preserve">
+    <value>Bestand niet gevonden</value>
+  </data>
+  <data name="msgNotSetIcon" xml:space="preserve">
+    <value>Kon niet ingesteld icon</value>
+  </data>
+  <data name="txtGraphicFilter" xml:space="preserve">
+    <value>Grafisch bestanden (*.BMP;*.JPG;*.JPEG;*.GIF;*.TIF;*.TIFF;*.PNG;*.ICO)|*.BMP;*.JPG;*.JPEG;*.GIF;*.TIF;*.TIFF;*.PNG;*.ICO|Alle bestanden (*.*)|*.*</value>
+  </data>
+  <data name="msgZipVer" xml:space="preserve">
+    <value>Deze backup is van een andere  versie van Edge, dus mogelijk werkt het niet goed
+Wilt u doorgaan?</value>
+    <comment>multiline; v2.0.0</comment>
+  </data>
+  <data name="msgSchema" xml:space="preserve">
+    <value>Er is bij Edge een database wijziging. Upgrade naar de laatste versie van EdgeManage:</value>
+    <comment>space at the end; v2.0.1</comment>
+  </data>
+</root>

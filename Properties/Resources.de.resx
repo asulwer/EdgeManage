@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errBadCol" xml:space="preserve">
+    <value>Nicht unterstützter Spaltentyp: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="errCheckUpdate" xml:space="preserve">
+    <value>Konnte nicht nach Updates suchen: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="errCorrupt" xml:space="preserve">
+    <value>Die Datenbank ist beschädigt</value>
+  </data>
+  <data name="errMissing" xml:space="preserve">
+    <value>Die Datenbankdatei fehlt</value>
+  </data>
+  <data name="errUpdate" xml:space="preserve">
+    <value>Konnte nicht aktualisiert werden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgAttention" xml:space="preserve">
+    <value>Aufgepast!</value>
+  </data>
+  <data name="msgBackup" xml:space="preserve">
+    <value>Backup erstellt</value>
+  </data>
+  <data name="msgBackupErr" xml:space="preserve">
+    <value>Backup konnte nicht erstellt werden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgCancelled" xml:space="preserve">
+    <value>Abgebrochen</value>
+  </data>
+  <data name="msgClear" xml:space="preserve">
+    <value>Alle Änderungen zurücksetzen und mit leerer Favoritenliste neu beginnen.
+
+Möchten Sie fortfahren? </value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgClose1" xml:space="preserve">
+    <value>Bitte Edge Browser schließen und dieses Programm neu starten</value>
+  </data>
+  <data name="msgClose2" xml:space="preserve">
+    <value>Bitte Edge Browser schließen und erneut versuchen</value>
+  </data>
+  <data name="msgDelBar" xml:space="preserve">
+    <value>Der '_Favorites_Bar_' Ordner kann nicht gelöscht werden.
+
+Möchten Sie seinen Inhalt löschen?</value>
+    <comment>'_Favorites_Bar_' is hard coded, multiline</comment>
+  </data>
+  <data name="msgDelFolder" xml:space="preserve">
+    <value>Dadurch werden auch alle Objekte im Ordner gelöscht</value>
+  </data>
+  <data name="msgDelTop" xml:space="preserve">
+    <value>Sie können den 'Basis' Ordner nicht löschen
+
+Benutzen Sie die Option 'Alle Löschen' im Menü 'Daten' um alle Favoriten zu löschen</value>
+    <comment>must match txtTop, multiline</comment>
+  </data>
+  <data name="msgDone" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="msgEmailErr" xml:space="preserve">
+    <value>Email-Versand nicht möglich:</value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgError" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="msgFavExists" xml:space="preserve">
+    <value>Favoritnamen bereits vorhanden, bitte einen anderen Namen verwenden </value>
+  </data>
+  <data name="msgFolderExists" xml:space="preserve">
+    <value>Ordnernamen bereits vorhanden, bitte einen einen anderen Namen verwenden</value>
+  </data>
+  <data name="msgGenerate" xml:space="preserve">
+    <value>Es wurden {0}/{1} Favoriten-Symbole erzeugt</value>
+  </data>
+  <data name="msgHelpErr" xml:space="preserve">
+    <value>Hilfeseite kann nicht geöffnet werden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgHTMLinErr" xml:space="preserve">
+    <value>HTML-Datei kann nicht gelesen werden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgHTMLout" xml:space="preserve">
+    <value>Export abgeschlossen</value>
+  </data>
+  <data name="msgHTMLoutErr" xml:space="preserve">
+    <value>HTML-Datei kann nicht erstellt werden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgIEinErr" xml:space="preserve">
+    <value>Import von IE nicht möglich: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgIEout" xml:space="preserve">
+    <value>Export abgeschlossen</value>
+  </data>
+  <data name="msgIEoutErr" xml:space="preserve">
+    <value>Export nach IE nicht möglich: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgImport" xml:space="preserve">
+    <value>Import hat {0} {1} hinzugefügt und {2} {3} angepasst</value>
+  </data>
+  <data name="msgLatestVer" xml:space="preserve">
+    <value>Sie haben die neueste Version</value>
+  </data>
+  <data name="msgLoadErr" xml:space="preserve">
+    <value>Edge Favoriten können nicht geladen werden: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgNoChangeSave" xml:space="preserve">
+    <value>Keine Änderungen zu speichern</value>
+  </data>
+  <data name="msgNotice" xml:space="preserve">
+    <value>Hinweis!</value>
+  </data>
+  <data name="msgNoUpdate" xml:space="preserve">
+    <value>Keine Updates verfügbar</value>
+  </data>
+  <data name="msgReload" xml:space="preserve">
+    <value>Alle Änderungen zurücksetzen und die Edge-Browser Favoriten erneut laden?
+
+Möchten Sie fortfahren? </value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgRenameBar" xml:space="preserve">
+    <value>Sie können den '_Favorites_Bar_'  Ordner nicht umbenennen</value>
+    <comment>'_Favorites_Bar_' is hard coded</comment>
+  </data>
+  <data name="msgRenameExists" xml:space="preserve">
+    <value>Name bereits vorhanden, bitte einen anderen Namen verwenden </value>
+  </data>
+  <data name="msgRenameTop" xml:space="preserve">
+    <value>Sie können den 'Basis'  Ordner nicht umbenennen</value>
+    <comment>must match txtTop</comment>
+  </data>
+  <data name="msgRestore" xml:space="preserve">
+    <value>Wiederherstellen abgeschlossen</value>
+  </data>
+  <data name="msgRestoreDiscard" xml:space="preserve">
+    <value>Durch das Wiederherstellen der Datenbank aus dem Backup werden alle Änderungen in Edge oder über EdgeManage seit dem Backup-Datum rückgängig gemacht.
+Möchten Sie fortfahren?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgRestoreErr" xml:space="preserve">
+    <value>Backup konnte nicht wiederhergestellt werden {0}</value>
+  </data>
+  <data name="msgSaved" xml:space="preserve">
+    <value>Favoriten gespeichert</value>
+  </data>
+  <data name="msgSaveErr" xml:space="preserve">
+    <value>Kann Edge Favoriten nicht speichern: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgShortcutErr" xml:space="preserve">
+    <value>Kann Verknüpfung nicht erstellen: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="msgSuccess" xml:space="preserve">
+    <value>Erfolgreich!</value>
+  </data>
+  <data name="msgUndelete" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="msgUndeleteItems" xml:space="preserve">
+    <value>Möchten Sie alle Objekte wiederherstellen in diesem Ordner (auf dieser Ebene)?</value>
+  </data>
+  <data name="msgUnsaved" xml:space="preserve">
+    <value>Änderungen nicht gespeichert!
+
+Möchten Sie Ihre Änderungen im Edge-Browser speichern vor dem Schließen?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgUpdate" xml:space="preserve">
+    <value>Ihre Version ist {0} und die neueste Version ist {1}
+
+Würden Sie jetzt updaten?</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgUpdateAvail" xml:space="preserve">
+    <value>Update verfügbar</value>
+  </data>
+  <data name="msgVersion" xml:space="preserve">
+    <value>Dieses Programm setzt  mindestens Windows 10.0.10586 voraus (Ihr System ist offenbar {0})
+
+Dieses Programm wird für Ihre Windows-Version nicht benötigt</value>
+    <comment>multiline</comment>
+  </data>
+  <data name="msgWarning" xml:space="preserve">
+    <value>Warnung!</value>
+  </data>
+  <data name="msgWebErr" xml:space="preserve">
+    <value>Kann Homepage nicht starten: </value>
+    <comment>space at the end</comment>
+  </data>
+  <data name="txtAddFav" xml:space="preserve">
+    <value>Favorit hinzufügen</value>
+  </data>
+  <data name="txtAddFolder" xml:space="preserve">
+    <value>Ordner hinzufügen</value>
+  </data>
+  <data name="txtHTMLFilter" xml:space="preserve">
+    <value>HTML Dateien (*.htm;*.html)|*.htm;*.html|Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="txtRow" xml:space="preserve">
+    <value>Zeile</value>
+    <comment>as in "updated 1 row"</comment>
+  </data>
+  <data name="txtRows" xml:space="preserve">
+    <value>Zeilen</value>
+    <comment>as in "updated 2 rows"</comment>
+  </data>
+  <data name="txtTop" xml:space="preserve">
+    <value>Basis</value>
+  </data>
+  <data name="txtXMLFilter" xml:space="preserve">
+    <value>XML Dateiten (*.xml)|*.xml|Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="txtZipFilter" xml:space="preserve">
+    <value>Zip Dateiten (*.zip)|*.zip|Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="msgFileNotFound" xml:space="preserve">
+    <value>Die Datei wurde nicht gefunden</value>
+  </data>
+  <data name="msgNotSetIcon" xml:space="preserve">
+    <value>Konnte nicht gesetzt Symbol</value>
+  </data>
+  <data name="txtGraphicFilter" xml:space="preserve">
+    <value>Grafik-Dateien (*.BMP;*.JPG;*.JPEG;*.GIF;*.TIF;*.TIFF;*.PNG;*.ICO)|*.BMP;*.JPG;*.JPEG;*.GIF;*.TIF;*.TIFF;*.PNG;*.ICO|Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="msgZipVer" xml:space="preserve">
+    <value>Dieses Backup wurde aus einer anderen Version von Edge erstellt, und wird eventuell nicht richtig funktionieren.
+Möchten Sie fortfahren?</value>
+    <comment>multiline; v2.0.0</comment>
+  </data>
+  <data name="msgSchema" xml:space="preserve">
+    <value>Die Datenbank in Edge wurde geändert, bitte führen Sie ein Upgrade auf die letzte Version von EdgeManage durch: </value>
+    <comment>space at the end; v2.0.1</comment>
+  </data>
+</root>
